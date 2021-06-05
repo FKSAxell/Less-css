@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #160E0B;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            list-style: none;
+            margin-right: 20px;
+
+            a {
+                text-decoration: none;
+                color: @colorPrimario;
+
+                &:hover {
+                    color: @colorSecundario;
+                }
+            }
+        }
+    }
+}

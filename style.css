@@ -1,0 +1,67 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #160E0B;
+  padding-top: 20px;
+  padding-bottom: 20px ;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: #F7931E;
+}
+.main {
+  background: url("images/background/coffeeshopop50.jpg") no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+}
+body {
+  margin: 0;
+}
+.logo {
+  background: url("images/svgs/logobn.svg") no-repeat;
+  height: 40px;
+  width: 180px;
+}
+h1,
+h2,
+h3,
+a {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+/* Avenir Black*/
+h1 {
+  font-weight: 900;
+  margin: 0;
+  color: white;
+}
+/* Avenir Heavy*/
+h2 {
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+/* Avenir Medium*/
+h3 {
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+.main-section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
